@@ -1,0 +1,71 @@
+.principal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e6c34a;
+}
+
+.blog-preview-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 380px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1.8px solid black;
+    box-shadow: 10px 10px 0 black;
+}
+
+.illustration-image{
+    margin: 20px 20px 0 20px;
+    border-radius: 10px;
+}
+
+.blog-preview-card-text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px 20px;
+    gap: 25px;
+}
+
+.learning-published-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.learning{
+    padding: 5px 15px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #e6c34a;
+    font-weight: 600;
+}
+
+.blog-preview-card-description{
+    color: #6b6b6b;
+}
+
+.blog-preview-card-title:hover{
+    color: #e6c34a;
+    cursor: pointer;
+}
+
+.image-name-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-user{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.name-user{
+    font-weight: 700;
+}
+
