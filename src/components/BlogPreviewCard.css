@@ -69,3 +69,13 @@
     font-weight: 700;
 }
 
+@media (max-width: 375px) {
+    .principal-container{
+        width: 100%;
+        height: 110vh;
+    }
+
+    .blog-preview-card-container{
+        width: 90%;
+    }
+}
